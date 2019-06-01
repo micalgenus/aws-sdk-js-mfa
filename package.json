@@ -1,0 +1,40 @@
+{
+  "name": "aws-sdk-js-mfa",
+  "version": "1.0.0",
+  "description": "AWS MFA login with AWS-SDK-JS",
+  "main": "index.js",
+  "scripts": {
+    "build": "babel src --out-dir dist --copy-files --extensions \".ts,.tsx\"",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/micalgenus/aws-sdk-js-mfa.git"
+  },
+  "keywords": [
+    "AWS",
+    "MFA",
+    "nodejs"
+  ],
+  "author": "micalgenus <micalgenus@gmail.com> (https://micalgenus.github.io/)",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/micalgenus/aws-sdk-js-mfa/issues"
+  },
+  "homepage": "https://github.com/micalgenus/aws-sdk-js-mfa#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.4.4",
+    "@babel/core": "^7.4.5",
+    "@babel/preset-env": "^7.4.5",
+    "@babel/preset-typescript": "^7.3.3",
+    "@types/node": "^12.0.4",
+    "babel-plugin-module-resolver": "^3.2.0"
+  },
+  "dependencies": {
+    "aws-sdk": "^2.466.0",
+    "deasync": "^0.1.15",
+    "ini": "^1.3.5",
+    "moment": "^2.24.0",
+    "readline-sync": "^1.4.9"
+  }
+}

@@ -1,0 +1,15 @@
+{
+  "presets": ["@babel/typescript", ["@babel/env", { "targets": { "node": "8" } }]],
+  "env": { "test": { "plugins": ["istanbul"] } },
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "alias": { "@": "./src" }
+      }
+    ]
+  ],
+  "sourceMaps": true,
+  "comments": false
+}
