@@ -1,8 +1,8 @@
 {
-  "name": "aws-sdk-js-mfa",
-  "version": "1.0.0",
+  "name": "@micalgenus/aws-sdk-js-mfa",
+  "version": "1.0.1",
   "description": "AWS MFA login with AWS-SDK-JS",
-  "main": "index.js",
+  "main": "dist/index.js",
   "scripts": {
     "build": "babel src --out-dir dist --copy-files --extensions \".ts,.tsx\"",
     "test": "echo \"Error: no test specified\" && exit 1"
@@ -36,5 +36,8 @@
     "ini": "^1.3.5",
     "moment": "^2.24.0",
     "readline-sync": "^1.4.9"
+  },
+  "publishConfig": {
+    "access": "public"
   }
 }
