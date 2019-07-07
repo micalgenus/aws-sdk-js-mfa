@@ -1,0 +1,21 @@
+sudo: true
+language: node_js
+node_js:
+  - '11.10'
+cache:
+  npm: true
+  yarn: true
+
+install:
+  - yarn
+
+script:
+  - yarn build
+
+deploy:
+  - provider: npm
+    email: micalgenus@gmail.com
+    api_key: $NPM_KEY
+    skip_cleanup: true
+    on:
+      branch: master
