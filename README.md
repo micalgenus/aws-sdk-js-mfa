@@ -19,9 +19,9 @@ npm install --save @micalgenus/aws-sdk-js-mfa
 ## Usage
 
 ```javascript
-const loginAwsWithMFA = require('@micalgenus/aws-sdk-js-mfa');
+const aws = require('@micalgenus/aws-sdk-js-mfa');
 
 // synchronous function.
 // waiting for login before create AWS instance
-loginAwsWithMFA();
+aws.loginAwsWithMFA();
 ```
