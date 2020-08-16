@@ -1,6 +1,6 @@
 {
   "name": "@micalgenus/aws-sdk-js-mfa",
-  "version": "1.0.2",
+  "version": "1.0.3",
   "description": "AWS MFA login with AWS-SDK-JS",
   "main": "dist/index.js",
   "scripts": {
